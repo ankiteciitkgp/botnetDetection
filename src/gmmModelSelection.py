@@ -1,3 +1,6 @@
+'''
+The code is taken from Scikit Learn Examples to select model parameter for Gaussian Mixutre Model 
+'''
 import numpy as np
 import itertools
 
@@ -8,6 +11,7 @@ import matplotlib as mpl
 from sklearn import mixture
 
 #define X dataVariable
+
 
 lowest_bic = np.infty
 bic = []
